@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<mime-info xmlns='http://www.freedesktop.org/standards/shared-mime-info'>
+	<mime-type type="application/matrix">
+		<comment>Japanes puzzle</comment>
+		<glob pattern="*.jcc"/>
+		<glob pattern="*.jcr"/>
+		<glob pattern="*.jch"/>
+		<glob pattern="*.mem"/>
+		</mime-type>
+</mime-info>

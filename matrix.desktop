@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Matrix
+Comment=Japanes puzzle
+Exec=matrix
+Icon=/usr/share/icons/hicolor/32x32/apps/matrix.png
+Categories=Game;
+Path=
+Terminal=false
+StartupNotify=false

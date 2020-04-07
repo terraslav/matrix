@@ -1,0 +1,89 @@
+[editor]
+line_wrapping=true
+line_break_column=150
+auto_continue_multiline=true
+
+[file_prefs]
+final_new_line=true
+ensure_convert_new_lines=true
+strip_trailing_spaces=true
+replace_tabs=false
+
+[indentation]
+indent_width=4
+indent_type=1
+indent_hard_tab_width=8
+detect_indent=false
+detect_indent_width=false
+indent_mode=2
+
+[project]
+name=matrix
+base_path=/home/terra/bscr/matrix/
+description=
+file_patterns=
+
+[long line marker]
+long_line_behaviour=1
+long_line_column=72
+
+[files]
+current_page=17
+FILE_NAME_0=5196;C;0;EUTF-8;1;1;1;%2Fhome%2Fterra%2Fmatrix%2Fdialog.c;0;4
+FILE_NAME_1=0;C++;0;EUTF-8;1;1;1;%2Fhome%2Fterra%2Fmatrix%2Fdialog.h;0;4
+FILE_NAME_2=29406;C;0;EUTF-8;1;1;1;%2Fhome%2Fterra%2Fmatrix%2Flibrary.c;0;4
+FILE_NAME_3=227;C++;0;EUTF-8;1;1;1;%2Fhome%2Fterra%2Fmatrix%2Flibrary.h;0;4
+FILE_NAME_4=0;C;0;EUTF-8;1;1;1;%2Fhome%2Fterra%2Fmatrix%2Fmafile.c;0;4
+FILE_NAME_5=4738;C;0;EUTF-8;1;1;1;%2Fhome%2Fterra%2Fmatrix%2Flzw.c;0;4
+FILE_NAME_6=0;C++;0;EUTF-8;1;1;1;%2Fhome%2Fterra%2Fmatrix%2Fmafile.h;0;4
+FILE_NAME_7=0;C++;0;EUTF-8;1;1;1;%2Fhome%2Fterra%2Fmatrix%2Fmain.h;0;4
+FILE_NAME_8=35116;C;0;EUTF-8;1;1;1;%2Fhome%2Fterra%2Fmatrix%2Fpaint.c;0;4
+FILE_NAME_9=0;C++;0;EUTF-8;1;1;1;%2Fhome%2Fterra%2Fmatrix%2Futils.h;0;4
+FILE_NAME_10=0;C++;0;EUTF-8;1;1;1;%2Fhome%2Fterra%2Fmatrix%2Fpaint.h;0;4
+FILE_NAME_11=118532;C;0;EUTF-8;1;1;1;%2Fhome%2Fterra%2Fmatrix%2Fpuzzle.c;0;4
+FILE_NAME_12=0;C;0;EUTF-8;1;1;1;%2Fhome%2Fterra%2Fmatrix%2Fprint.c;0;4
+FILE_NAME_13=0;C++;0;EUTF-8;1;1;1;%2Fhome%2Fterra%2Fmatrix%2Fpuzzle.h;0;4
+FILE_NAME_14=0;C++;0;EUTF-8;1;1;1;%2Fhome%2Fterra%2Fmatrix%2Fresource.h;0;4
+FILE_NAME_15=10;C++;0;EUTF-8;1;1;1;%2Fhome%2Fterra%2Fmatrix%2Ftypes.h;0;4
+FILE_NAME_16=1582;C;0;EUTF-8;1;1;1;%2Fhome%2Fterra%2Fmatrix%2Futils.c;0;4
+FILE_NAME_17=45655;C;0;EUTF-8;1;1;1;%2Fhome%2Fterra%2Fmatrix%2Fmain.c;0;4
+FILE_NAME_18=1232;Make;0;EUTF-8;1;1;1;%2Fhome%2Fterra%2Fmatrix%2FMakefile;0;4
+
+[VTE]
+last_dir=/home/terra
+
+[build-menu]
+CFT_01_LB=_Build
+CFT_01_CM=make clean && make
+CFT_01_WD=
+filetypes=C;C++;Make;
+NF_00_LB=_Собрать
+NF_00_CM=make clean && make debug
+NF_00_WD=
+NF_01_LB=Собрать заданную _цель...
+NF_01_CM=make
+NF_01_WD=
+NF_02_LB=Собрать _объектный файл
+NF_02_CM=make %e.o
+NF_02_WD=
+EX_00_LB=_Execute
+EX_00_CM=make && ./matrix
+EX_00_WD=
+EX_01_LB=Отладичик
+EX_01_CM=make && gdb matrix
+EX_01_WD=
+C++FT_00_LB=_Compile
+C++FT_00_CM=gcc -Wall -c "%f" `pkg-config --cflags gtk+-2.0` `cups-config --cflags --libs` -lssl
+C++FT_00_WD=
+NF_03_LB=
+NF_03_CM=
+NF_03_WD=
+MakeFT_00_LB=make release
+MakeFT_00_CM=make clean && make debug
+MakeFT_00_WD=
+MakeFT_01_LB=run debug
+MakeFT_01_CM=make clean && make
+MakeFT_01_WD=
+CFT_00_LB=_Compile
+CFT_00_CM=gcc -Wall -c "%f"
+CFT_00_WD=

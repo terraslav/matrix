@@ -1,0 +1,873 @@
+# Russian translations for PACKAGE package
+# Английские переводы для пакета PACKAGE.
+# Copyright (C) 2017 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# terra <fer.06@bk.ru>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-21 14:31+0300\n"
+"PO-Revision-Date: 2019-03-11 11:06+0300\n"
+"Last-Translator: Unknown <terra@frankenstein>\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.11\n"
+
+msgid "Digits editing"
+msgstr "Редактирование чисел"
+
+msgid "Seerching solved"
+msgstr "Идет поиск решения"
+
+msgid "please wait"
+msgstr "подождите немного"
+
+msgid "Search result"
+msgstr "Результаты поиска"
+
+msgid "Not found: "
+msgstr "Ничего не найдено по запросу: "
+
+msgid "colores"
+msgstr "цветов"
+
+msgid "colors"
+msgstr "цвета"
+
+msgid "Number"
+msgstr "Номер"
+
+msgid "Name"
+msgstr "Название"
+
+msgid "Size"
+msgstr "Размер"
+
+msgid "Numb.colors"
+msgstr "Кол.цветов"
+
+msgid "monochrome"
+msgstr "черно-белый"
+
+msgid "Find error!"
+msgstr "Ошибка поиска"
+
+msgid "Sorry, its big number!"
+msgstr "Слишком большой номер"
+
+msgid "Solver error!"
+msgstr "Ошибка при решении"
+
+msgid "File"
+msgstr "Файл"
+
+msgid "Nanogramm puzzles"
+msgstr "Нанограммы-головоломки"
+
+msgid "xdg-open https://en.wikipedia.org/wiki/Nonogram"
+msgstr "xdg-open https://ru.wikipedia.org/wiki/Японский_кроссворд"
+
+msgid "My page vkontakte"
+msgstr "Моя страница вконтакте"
+
+#: dialog.c:24
+msgid "Change current color"
+msgstr "Изменение цвета"
+
+msgid "Properties"
+msgstr "Параметры файла"
+
+#: dialog.c:49
+msgid "choose color"
+msgstr "Выбор цвета"
+
+#: dialog.c:49
+msgid "The format JCR doesn't support change of  colors"
+msgstr "Формат JCR не поддерживает изменения палитры цветов"
+
+#: dialog.c:141 main.c:669
+msgid "Palette"
+msgstr "Палитра"
+
+msgid "New puzzle"
+msgstr "Новый пазл"
+
+msgid "Noname"
+msgstr "Безымянный"
+
+#: dialog.c:183
+msgid "Top digits number"
+msgstr "Размер поля оцифровки сверху"
+
+#: dialog.c:184
+msgid "Left digits number"
+msgstr "Размер поля оцифровки слева"
+
+#: dialog.c:185
+msgid "Height matrix"
+msgstr "Высота поля матрицы"
+
+#: dialog.c:186
+msgid "Width matrix"
+msgstr "Ширина поля матрицы"
+
+#: dialog.c:187
+msgid "File name:"
+msgstr "Имя файла:"
+
+#: dialog.c:190
+msgid "Color puzzle"
+msgstr "Цветная нанограмма"
+
+#: dialog.c:245
+msgid "About"
+msgstr "Об авторе"
+
+#: dialog.c:249
+msgid "Japaness nanogramm manipulate program"
+msgstr ""
+"Программа для создания, тестирования\n"
+"и решения японских нанограмм"
+
+#: dialog.c:296
+msgid "Save nanogramm as"
+msgstr "Сохранить нанограмму как"
+
+#: dialog.c:328
+msgid "Open nanogramm"
+msgstr "Открыть нанограмму"
+
+#: dialog.c:333
+msgid "Nanogramms"
+msgstr "Нанограммы"
+
+#: dialog.c:334
+msgid "Pictures(BMP) non-compessed"
+msgstr "Несжатые рисунки BMP"
+
+#: dialog.c:335
+msgid "All files"
+msgstr "Все файлы"
+
+#: mafile.c:191
+#, c-format
+msgid "Opened file: %s"
+msgstr "Открыт файл: %s"
+
+#: mafile.c:381
+msgid "The compressed bitmap is not supported!"
+msgstr "Сжатие в файлах BMP не поддерживается!"
+
+#: mafile.c:385
+msgid "Width and height image more that 127 cells!"
+msgstr "Ширина и высота картинки не должна превышать значения 127"
+
+#: mafile.c:628
+msgid "Puzzle changes"
+msgstr "Нанограмма имеет изменения"
+
+#: mafile.c:628
+msgid "Save changes?"
+msgstr "Сохранить изменения"
+
+#: mafile.c:646
+msgid ""
+"Access denied!\n"
+"Don`t save"
+msgstr "Не могу сохранить файл - доступ запрещён!"
+
+#: mafile.c:646
+msgid "file."
+msgstr "файл."
+
+#: mafile.c:647
+msgid "System error"
+msgstr "Системная ошибка"
+
+#: mafile.c:703
+#, c-format
+msgid "Couldn't open library directory:"
+msgstr "Не могу открыть папку библиотеки:"
+
+msgid "Please update library!"
+msgstr "Пожалуйста обновите библиотеку"
+
+#: mafile.c:711
+#, c-format
+msgid "No puzzle files found in folder: %s\n"
+msgstr "Нанограмм в папке %s не найдено\n"
+
+#: mafile.c:723
+msgid "Open folder to demo"
+msgstr "Открыть папку с нанограммами"
+
+#: main.c:238
+#, c-format
+msgid ""
+"Error opening file: %s\n"
+"File format not suitable!"
+msgstr ""
+"Ошибка открытия файла: %s\n"
+"неизвестный формат файла!"
+
+msgid "Only the part seen on the screen nanograms is exported.\n"
+"I recommend to choose suitable scale."
+msgstr "Экспортируется только видимая на экране часть нанограммы.\n"
+"Рекомендую выбрать более подходящий масштаб."
+
+#: main.c:275
+#, c-format
+msgid "Export view screen to file: %s completed!"
+msgstr "Экспорт видимого изображения в файл: %s выполнено!"
+
+#: main.c:281
+msgid "Error export"
+msgstr "Ошибка экспорта!"
+
+#: main.c:281
+msgid "Don't save expotrs"
+msgstr "Не могу сохранить файл экспорта!"
+
+#: main.c:660
+msgid "Undo"
+msgstr "Отмена"
+
+#: main.c:660
+msgid "undo last move"
+msgstr "отмена последнего действия"
+
+#: main.c:661
+msgid "Redo"
+msgstr "Повтор"
+
+#: main.c:661
+msgid "redo prev move"
+msgstr "повтор последнего отменённого действия"
+
+#: main.c:663
+msgid "Solve"
+msgstr "Решить"
+
+#: main.c:663
+msgid "to solve a nanogramm"
+msgstr "автоматически решить или пошагово помочь решить нанограмму"
+
+#: main.c:664
+msgid "Counts"
+msgstr "Пересчитать"
+
+#: main.c:664
+msgid "to count a matrix"
+msgstr "пересчитать цифры по содержимому матрицы"
+
+#: main.c:665
+msgid "Clear"
+msgstr "Очистить"
+
+#: main.c:665
+msgid "clear matrix"
+msgstr "очистить матрицу"
+
+#: main.c:667
+msgid "Grid"
+msgstr "Сетка"
+
+#: main.c:667
+msgid "Greed cells"
+msgstr "показать сетку"
+
+#: main.c:668
+msgid "5x5"
+msgstr "5х5 сетка"
+
+#: main.c:668
+msgid "5x bold grid"
+msgstr "5х5 сетка"
+
+msgid "Pen"
+msgstr "Карандаш"
+
+msgid "Painting pen"
+msgstr "Рисовать поклеточно"
+
+msgid "Rectangle"
+msgstr "Прямоугольник"
+
+msgid "Painting rectangles"
+msgstr "Рисовать прямоугольниками"
+
+msgid "Fill"
+msgstr "Заливка"
+
+msgid "Filling place"
+msgstr "Залить однородные клетки"
+
+#: main.c:669
+msgid "Show palette"
+msgstr "показать/скрыть цветовую палитру"
+
+#: main.c:671
+msgid "Increase (F4)"
+msgstr "Увеличить (F4)"
+
+#: main.c:671
+msgid "increase view"
+msgstr "увеличить размер ячеек"
+
+#: main.c:672
+msgid "Reduce (F3)"
+msgstr "Уменьшить (F3)"
+
+#: main.c:672
+msgid "to reduce view"
+msgstr "Уменьшить размер ячеек"
+
+#: main.c:673
+msgid "Adjust (F2)"
+msgstr "Подогнать (F2)"
+
+#: main.c:673
+msgid "to adjust to a view"
+msgstr "подогнать к экрану "
+
+#: main.c:675
+msgid "New"
+msgstr "Новый"
+
+#: main.c:675
+msgid "create new nanogramm"
+msgstr "создать новый пазл"
+
+#: main.c:676
+msgid "Open"
+msgstr "Открыть"
+
+#: main.c:676
+msgid "open nanogramm"
+msgstr "открыть новый пазл"
+
+#: main.c:677
+msgid "Save"
+msgstr "Сохранить"
+
+#: main.c:677
+msgid "save nanogramm"
+msgstr "сохранить пазл"
+
+#: paint.c:197
+msgid "Error! Too big digit."
+msgstr "Ошибка! Цифра больше допустимого значения"
+
+#: paint.c:560
+#, c-format
+msgid "Cursor position: %d/-%d x %d/-%d"
+msgstr "Позиция курсора: %d/-%d x %d/-%d"
+
+#: paint.c:619 paint.c:699
+#, c-format
+msgid " in %d row!"
+msgstr " в %d колонке!"
+
+#: paint.c:621 paint.c:701
+#, c-format
+msgid " in %d line!"
+msgstr " в %d строке!"
+
+#: paint.c:636 paint.c:637
+msgid "Puzzle solved."
+msgstr "Нанограмма решена!"
+
+#: paint.c:637
+msgid "Congratulation!"
+msgstr "Примите поздравления!"
+
+#: puzzle.c:181
+msgid "Horizontal and vertical numbers sums nonequivalent!\n"
+msgstr "Суммы верхней и левой оцифровок не совпадают!\n"
+
+#: puzzle.c:182
+#, c-format
+msgid ""
+"Top digits summ: %d\n"
+"Left digits summ: %d"
+msgstr ""
+"Сумма цифр верхней оцифровки равна: %d\n"
+"Сумма цифр левой оцифровки равна: %d"
+
+#: puzzle.c:198
+#, c-format
+msgid "Summ horisontal & vertical digits is not equivalent! Top summ = %d, left summ = %d"
+msgstr "Суммы верхней и левой оцифровок не совпадают! Сумма сверху: %d Сумма слева: %d"
+
+#: puzzle.c:207
+msgid "Summ digits and summ maked marix cells is not equivalent!"
+msgstr "Сумма оцифровки и сумма отмеченных ячеек не совпадают!"
+
+#: puzzle.c:215
+#, c-format
+msgid "C_check_complete: not complete in column %d"
+msgstr "C_check_complete: колонка %d ещё не решена"
+
+#: puzzle.c:222
+#, c-format
+msgid "C_check_complete: not complete in line %d"
+msgstr "C_check_complete: строка %d ещё не решена"
+
+#: puzzle.c:338
+msgid "Puzzle error!"
+msgstr "Ошибка в нанограмме!"
+
+#: puzzle.c:338
+msgid "Solved ready"
+msgstr "Расчет окончен"
+
+#: puzzle.c:351 puzzle.c:362
+#, c-format
+msgid ""
+"\n"
+"C_make_start_position: Error overflow in row: %d, calculate row len: %d\n"
+msgstr ""
+"\n"
+"C_make_start_position: ошибка переполнения в колонке: %d, расчитанная длина: %d\n"
+
+#: puzzle.c:507
+#, c-format
+msgid ""
+"No more logic continued!\n"
+msgstr ""
+"Больше не вижу осмысленных действий!\n"
+
+#: puzzle.c:528
+msgid "Lesson message"
+msgstr "Сообщение режима обучения"
+
+#: puzzle.c:528
+msgid "No more logic continued!"
+msgstr "Больше не нахожу осмысленных действий!"
+
+#: puzzle.c:544
+#, c-format
+msgid "C_test_step: no calcing cell in current step"
+msgstr "C_test_step: не расшитаны ячейки при текущем вхождении"
+
+#: puzzle.c:752
+#, c-format
+msgid ""
+"Error in %s: %d\n"
+"Continued with cleared puzzle?"
+msgstr ""
+"Ошибка в: %s: %d\n"
+"Очистить матрицу и продолжить?"
+
+#: puzzle.c:752 puzzle.c:2369 puzzle.c:2426 puzzle.c:2521 puzzle.c:2569
+#: puzzle.c:2653 puzzle.c:2699 puzzle.c:2842
+msgid "line"
+msgstr "строке"
+
+#: puzzle.c:752 puzzle.c:2369 puzzle.c:2426 puzzle.c:2521 puzzle.c:2569
+#: puzzle.c:2653 puzzle.c:2699 puzzle.c:2842
+msgid "column"
+msgstr "колонке"
+
+#: puzzle.c:1828 puzzle.c:1855
+#, c-format
+msgid "C_make_start_position_color: overflow in line %d\n"
+msgstr "C_make_start_position_color: выход за границы матрицы в строке %d\n"
+
+#: puzzle.c:2042
+#, c-format
+msgid "C_make_access_color: Error make c_st_pos, line %d overflow"
+msgstr "C_make_access_color: Ошибка отметки c_st_pos, строка %d переполнена"
+
+#: puzzle.c:2052
+#, c-format
+msgid "C_make_access_color: Error make c_en_pos, line %d overflow"
+msgstr "C_make_access_color: Ошибка отметки c_en_pos, строка %d переполнена"
+
+#: puzzle.c:2209
+#, c-format
+msgid "Summ digit color:"
+msgstr "Сумма цифр цвета:"
+
+msgid "different on:"
+msgstr "отличается на:"
+
+#: puzzle.c:2211
+msgid "Puzzle digits error!"
+msgstr "Имеется ошибка в оцифровке!"
+
+#: puzzle.c:2290
+msgid "C_make_overlapping_color: make nothing!"
+msgstr "C_make_overlapping_color: Нечего отмечать!"
+
+#: puzzle.c:2368
+#, c-format
+msgid "c_scan_line_color: st_pos. not defined unit place:%d в %s: %d\n"
+msgstr "c_scan_line_color: st_pos. не определено место для юнита:%d в %s: %d\n"
+
+#: puzzle.c:2425
+#, c-format
+msgid "c_scan_line_color: en_pos. not defined unit place:%d в %s: %d\n"
+msgstr "c_scan_line_color: en_pos. не определено место для юнита:%d в %s: %d\n"
+
+#: puzzle.c:3049
+msgid "Begining search solved..."
+msgstr "Начинаю поиск решения..."
+
+#: puzzle.c:3068
+msgid "No more solve!"
+msgstr "Больше ничем помочь не могу=("
+
+msgid "White"
+msgstr "Белый"
+
+msgid "Black"
+msgstr "Чёрный"
+
+msgid "Blue"
+msgstr "Синий"
+
+msgid "Red"
+msgstr "Красный"
+
+msgid "Magenta"
+msgstr "пурпурный"
+
+msgid "Green"
+msgstr "Зелёный"
+
+msgid "Cyan"
+msgstr "Морск.волны"
+
+msgid "Yallow"
+msgstr "Жёлтый"
+
+msgid "Silver"
+msgstr "Серебро"
+
+msgid "Gray"
+msgstr "Серый"
+
+msgid "Navy"
+msgstr "Морской"
+
+msgid "Purple"
+msgstr "Лиловый"
+
+msgid "Lime"
+msgstr "Известь"
+
+msgid "Teal"
+msgstr "Чирок"
+
+msgid "Olive"
+msgstr "Оливковый"
+
+msgid "Aquamarine"
+msgstr "Аквамарин"
+
+msgid "Orange"
+msgstr "Оранжевый"
+
+msgid "Pink"
+msgstr "Розовый"
+
+msgid "Maroon"
+msgstr "Тёмно-бордовый"
+
+msgid "/_File"
+msgstr "/_Файл"
+
+msgid "/File/_New..."
+msgstr "/Файл/_Новый"
+
+msgid "/File/_Open..."
+msgstr "/Файл/_Открыть"
+
+msgid "/File/_Save"
+msgstr "/Файл/_Сохранить"
+
+msgid "/File/Save _As"
+msgstr "/Файл/Сахранить _как"
+
+msgid "/File/_Export to PNG"
+msgstr "/Файл/_Экспорт в PNG"
+
+msgid "/File/Print..."
+msgstr "/Файл/_Печать..."
+
+msgid "/File/Feat_ures"
+msgstr "/Файл/_Свойства нанограммы"
+
+msgid "/File/_Quit"
+msgstr "/Файл/В_ыход"
+
+msgid "/File/sep"
+msgstr "/Файл/sep"
+
+msgid "/_Edit"
+msgstr "/_Правка"
+
+msgid "/Edit/_Undo"
+msgstr "/Правка/_Отмена"
+
+msgid "/Edit/_Redo"
+msgstr "/Правка/_Повтор"
+
+msgid "/Edit/_Invert colors"
+msgstr "/Правка/_Инверсия палитры"
+
+msgid "/Edit/_Paste"
+msgstr "/Правка/_Вставить"
+
+msgid "/Edit/Slide l_eft"
+msgstr "/Правка/Сдвинуть в_лево"
+
+msgid "/Edit/Slide _right"
+msgstr "/Правка/Сдвинуть в_право"
+
+msgid "/Edit/Slide _up"
+msgstr "/Правка/Сдвинуть в_верх"
+
+msgid "/Edit/Slide _down"
+msgstr "/Правка/Сдвинуть в_низ"
+
+msgid "/Edit/Clear _Puzzle"
+msgstr "/Правка/Очистить _матрицу"
+
+msgid "/Edit/Clear _Digits"
+msgstr "/Правка/Очистить оци_фровку"
+
+msgid "/Edit/Clear p_uzzle markers"
+msgstr "/Правка/Очистить маркеры ма_трицы"
+
+msgid "/Edit/Clear d_igits marker"
+msgstr "/Правка/Очистить маркеры о_цифровки"
+
+msgid "/Edit/P_roperty..."
+msgstr "/Правка/Па_раметры файла"
+
+msgid "/Edit/sep"
+msgstr "/Правка/sep"
+
+msgid "/_View"
+msgstr "/_Вид"
+
+msgid "/View/_More"
+msgstr "/_Вид/Больше"
+
+msgid "/View/_Less"
+msgstr "/Вид/Меньше"
+
+msgid "/View/_Reset"
+msgstr "/Вид/Подогнать"
+
+msgid "/View/_Toolbar"
+msgstr "/Вид/Панель _инструментов"
+
+msgid "/View/_Statusbar"
+msgstr "/Вид/Панель _статуса"
+
+msgid "/View/_Palette"
+msgstr "/Вид/Палитра"
+
+msgid "/View/_Grid"
+msgstr "/Вид/Сетка"
+
+msgid "/View/Gr_id 5x5"
+msgstr "/Вид/Сетка 5х5"
+
+msgid "/View/sep"
+msgstr "/Вид/sep"
+
+msgid "/_Puzzle"
+msgstr "/Па_зл"
+
+msgid "/Puzzle/_Solve puzzle"
+msgstr "/Пазл/_Решить"
+
+msgid "/Puzzle/_Calculate digits"
+msgstr "/Пазл/Расчитать _оцифровку"
+
+msgid "/Puzzle/_Make overlapped"
+msgstr "/Пазл/Отметить _перекрытые ячейки"
+
+msgid "/_Settings"
+msgstr "/_Установки"
+
+msgid "/Settings/_Animate"
+msgstr "/Установки/Анимация"
+
+msgid "/Settings/_lesson (step by step)"
+msgstr "/Установки/Режим обучения"
+
+msgid "/Settings/_View name"
+msgstr "/Установки/Показывать название пазла"
+
+msgid "/Settings/Help level"
+msgstr "/Установки/Уровень помощи"
+
+msgid "/Settings/manual solved"
+msgstr "/Установки/всё врукопашную"
+
+msgid "/Settings/automark digits"
+msgstr "/Установки/автозачеркивание цифр"
+
+msgid "/Settings/automark lines"
+msgstr "/Установки/автозачеркивание строк"
+
+msgid "/Settings/advanced help"
+msgstr "/Установки/продвинутый режим"
+
+msgid "/Settings/persuasive mode"
+msgstr "/Установки/навязчивый режим"
+
+msgid "/Settings/sep"
+msgstr "/Установки/sep"
+
+msgid "/_Library"
+msgstr "/_Библиотека"
+
+msgid "/Library/_Update lybrary"
+msgstr "/Библиотека/Обновить _библиотеку"
+
+msgid "/Library/Open random black nanogramm"
+msgstr "/Библиотека/Случайный черный пазл"
+
+msgid "/Library/Open random color nanogramm"
+msgstr "/Библиотека/Случайный цветной пазл"
+
+msgid "/Library/Find"
+msgstr "/Библиотека/Поиск"
+
+msgid "/Library/Sep"
+msgstr "/Библиотека/Sep"
+
+msgid "/Library/_Demo"
+msgstr "/Библиотека/_Демонстрация"
+
+msgid "/Library/_Next"
+msgstr "/Библиотека/Следующий"
+
+msgid "/Library/_Prev"
+msgstr "/Библиотека/Предыдущий"
+
+msgid "/Library/_Open_URL"
+msgstr "/Библиотека/_Открыть источник"
+
+msgid "/_Help"
+msgstr "/_Справка"
+
+msgid "/Help/_Help"
+msgstr "/Справка/_О нанограммах"
+
+msgid "/Help/_About"
+msgstr "/Справка/_Об авторе"
+
+msgid "Number is not select!"
+msgstr "Не выбран номер пазла!"
+
+msgid "Error opening bitmap pictures."
+msgstr "Ошибка открытия BMP-файла."
+
+msgid "Status:\t\t\t"
+msgstr "Статус:\t\t\t"
+
+msgid "error in matrix!\n"
+msgstr "присутствуют ошибки в решении!\n"
+
+msgid "no logical decision!\n"
+msgstr "не имеет прямого решения!\n"
+
+msgid "OK!\n"
+msgstr "Всё отлично!\n"
+
+msgid "Difficulties:\t\t%d\n"
+msgstr "Сложность:\t\t%d\n"
+
+msgid "solved!\n"
+msgstr "Решено!\n"
+
+msgid "Nanogramm features"
+msgstr "Особенности нанограммы"
+
+msgid "Digits summ:\t\t%d\nTop digits number:\t%d\nLeft digits number:\t%d\nFilling fild on:\t\t%.1f%%\nGuessed on:\t\t%.1f%%"
+msgstr "Сумма оцифровки:\t%d\nЦифр сверху:\t\t%d\nЦифр слева:\t\t%d\nЗаполнение поля:\t%.1f%%\nОтгадано:\t\t\t%.1f%%"
+
+msgid "Library error!"
+msgstr "Ошибка библиотеки!"
+
+msgid "C_make_overlapping: make nothing!\n"
+msgstr "C_make_overlapping: ничего не отмечено=)\n"
+
+msgid "mistake in digitization!\n"
+msgstr "ошибка в оцифровке!\n"
+
+msgid "digitizations non equivalent!"
+msgstr "оцифровки не эквивалентны!"
+
+msgid "mistake in attempt of the decision!"
+msgstr "ошибка при попытке решения!"
+
+msgid "Error: discrepancy of the drawing and digitization"
+msgstr "Ошибка: несоответствие рисунка и оцифровки"
+
+msgid "Matrix is empty!"
+msgstr "Нечего считать - матрица пуста!"
+
+msgid "Save changes"
+msgstr "Сохранение изменений"
+
+msgid "JCR-file format preservation doesn't support changes in a matrix body!\nChoose new name?"
+msgstr "Формат JCR не поддерживает сохранения содержимого в матрице рисунка!\nСохранить файл под другим именем?"
+
+msgid "Im i`s dead\n"
+msgstr "Мля, меня убили=(\n"
+
+msgid "Error in %s - %d"
+msgstr "Ошибка в %s - %d"
+
+msgid "Library"
+msgstr "Библиотека"
+
+msgid "Updates library started!"
+msgstr "Запущено обновление библиотеки!"
+
+msgid "Updates library stoped!"
+msgstr "Обновление библиотеки остановлено!"
+
+msgid "Updates library finished!"
+msgstr "Обновление библиотеки завершено."
+
+msgid "Name:\t\t\t%s\n"
+msgstr "Название:\t\t%s\n"
+
+msgid "Puzzle name:"
+msgstr "Название рисунка:"
+
+msgid "Select number or name puzzle:"
+msgstr "Введите номер или название пазла:"
+
+msgid "numbers are locally available"
+msgstr "локально доступны номера"
+
+msgid "Search in library"
+msgstr "Поиск в библиотеке"
+
+msgid "The puzzle number %d doesn't exist!"
+msgstr "Пазл номер %d не существует!"
+
+msgid "Really quit?"
+msgstr "Хорошо подумал?"
+
+msgid "Puzzle number is empty!"
+msgstr "Эта ячейка пуста."
+
+msgid "Sorry, puzzle number is empty! Select other number."
+msgstr "Извините, эта ячейка пуста. Выберите другой номер."
